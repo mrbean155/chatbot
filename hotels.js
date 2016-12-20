@@ -75,7 +75,7 @@ function hotelAsAttachment(hotel) {
             new builder.CardAction()
                 .title('More details')
                 .type('openUrl')
-                .value('https://www.bing.com/search?q=hotels+in+' + encodeURIComponent(hotel.location))
+                .value('https://www.google.com/search?q=hotels+in+' + encodeURIComponent(hotel.location))
         ]);
 }
 
